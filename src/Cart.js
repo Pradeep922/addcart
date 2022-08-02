@@ -15,6 +15,8 @@ export default function Cartjs(props) {
         rating
     } = value;
 
+
+    // Comment
     const [cartButton, setCartButton] = React.useState(false);
 
     const newcart = [...cartLength, index]
